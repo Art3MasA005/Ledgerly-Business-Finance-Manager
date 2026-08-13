@@ -1,0 +1,97 @@
+name: ledgerly_sonnet
+description: "Ledgerly - দোকানের হিসাব, বাকি, বিক্রি ও রিপোর্ট সহজে রাখার অ্যাপ।"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── Supabase ──────────────────────────────────────
+  supabase_flutter: ^2.5.6
+
+  # ── State Management ──────────────────────────────
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # ── Local Database (Offline-first) ────────────────
+  drift: ^2.20.3
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # ── Secure Storage ────────────────────────────────
+  flutter_secure_storage: ^9.0.0
+
+  # ── Connectivity ──────────────────────────────────
+  connectivity_plus: ^6.0.5
+
+  # ── Navigation ────────────────────────────────────
+  go_router: ^14.2.7
+
+  # ── Auth ──────────────────────────────────────────
+  google_sign_in: ^6.2.1
+
+  # ── Charts ────────────────────────────────────────
+  fl_chart: ^0.68.0
+
+  # ── PDF Export ────────────────────────────────────
+  pdf: ^3.11.1
+  printing: ^5.13.2
+  share_plus: ^10.0.3
+
+  # ── File Picker & Import ──────────────────────────
+  file_picker: ^8.1.7
+  csv: ^6.0.0
+
+  # ── PDF Text Extraction (for TaliKhata import) ───
+  syncfusion_flutter_pdf: ^26.2.14
+
+  # ── Fonts & Typography ────────────────────────────
+  google_fonts: ^6.2.1
+
+  # ── Formatting ────────────────────────────────────
+  intl: ^0.19.0
+
+  # ── Utilities ─────────────────────────────────────
+  uuid: ^4.4.2
+  equatable: ^2.0.5
+  collection: ^1.18.0
+
+  # ── UI Enhancements ───────────────────────────────
+  shimmer: ^3.0.0
+  lottie: ^3.1.3
+  cached_network_image: ^3.4.0
+  flutter_svg: ^2.0.10+1
+  gap: ^3.0.1
+
+  # ── Icons ─────────────────────────────────────────
+  cupertino_icons: ^1.0.8
+  flutter_vector_icons: ^2.0.0
+
+  # ── Image ─────────────────────────────────────────
+  image_picker: ^1.1.2
+
+  # ── Local Notifications ───────────────────────────
+  flutter_local_notifications: ^17.2.4
+
+  # ── Shared Preferences ────────────────────────────
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.12
+  drift_dev: ^2.20.3
+  riverpod_generator: ^2.4.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
