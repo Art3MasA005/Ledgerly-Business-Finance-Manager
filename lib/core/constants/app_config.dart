@@ -1,10 +1,22 @@
 // Supabase configuration for Ledgerly
-// Project: Antigravity_LD (ymwgugipgvqtugbmukdn)
+//
+// Credentials are injected at build-time via --dart-define so they are
+// never committed to source control. See README.md § Setup for details.
+//
+// Usage:
+//   flutter run \
+//     --dart-define=SUPABASE_URL=https://your-project.supabase.co \
+//     --dart-define=SUPABASE_ANON_KEY=your-anon-key
 
 class AppConfig {
-  static const String supabaseUrl = 'https://ymwgugipgvqtugbmukdn.supabase.co';
-  static const String supabaseAnonKey =
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inltd2d1Z2lwZ3ZxdHVnYm11a2RuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5MzQzMTUsImV4cCI6MjA5ODUxMDMxNX0.2_iVlCn9zjLA1QYeHcyYRHc7za9iDruImP5gfsHf9xg';
+  static const String supabaseUrl = String.fromEnvironment(
+    'SUPABASE_URL',
+    defaultValue: '', // Set via --dart-define at build time
+  );
+  static const String supabaseAnonKey = String.fromEnvironment(
+    'SUPABASE_ANON_KEY',
+    defaultValue: '', // Set via --dart-define at build time
+  );
 
   // App Info
   static const String appName = 'Ledgerly';
