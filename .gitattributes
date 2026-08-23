@@ -1,0 +1,9 @@
+# Keep language statistics focused on hand-written source.
+# Flutter generates the platform runner directories below.
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+**/build/** linguist-generated
