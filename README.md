@@ -24,7 +24,7 @@
   <img src="docs/screenshots/home_bn.png" width="200" alt="Home in Bangla" />
   <img src="docs/screenshots/entry.png" width="200" alt="New transaction" />
   <img src="docs/screenshots/invoices.png" width="200" alt="Invoices" />
-  <img src="docs/screenshots/login.png" width="200" alt="Sign in" />
+  <img src="docs/screenshots/menu.png" width="200" alt="Menu" />
 </p>
 <p align="center"><sub>Screenshots use a fictional shop and made-up customers.</sub></p>
 
