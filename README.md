@@ -15,16 +15,19 @@
 </div>
 
 <p align="center">
-  <img src="docs/screenshots/home.png" width="200" alt="Ledger home" />
-  <img src="docs/screenshots/party_ledger.png" width="200" alt="Customer statement" />
-  <img src="docs/screenshots/cashbox.png" width="200" alt="Cashbox" />
-  <img src="docs/screenshots/analytics.png" width="200" alt="Analytics" />
+  <img src="docs/screenshots/login.png" width="250" alt="Sign in" />
+  <img src="docs/screenshots/home.png" width="250" alt="Ledger home" />
+  <img src="docs/screenshots/home_bn.png" width="250" alt="Home in Bangla" />
 </p>
 <p align="center">
-  <img src="docs/screenshots/home_bn.png" width="200" alt="Home in Bangla" />
-  <img src="docs/screenshots/entry.png" width="200" alt="New transaction" />
-  <img src="docs/screenshots/invoices.png" width="200" alt="Invoices" />
-  <img src="docs/screenshots/menu.png" width="200" alt="Menu" />
+  <img src="docs/screenshots/entry.png" width="250" alt="New transaction" />
+  <img src="docs/screenshots/party_ledger.png" width="250" alt="Customer statement" />
+  <img src="docs/screenshots/invoices.png" width="250" alt="Invoices" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/cashbox.png" width="250" alt="Cashbox" />
+  <img src="docs/screenshots/analytics.png" width="250" alt="Analytics" />
+  <img src="docs/screenshots/menu.png" width="250" alt="Menu" />
 </p>
 <p align="center"><sub>Screenshots use a fictional shop and made-up customers.</sub></p>
 
